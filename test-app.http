@@ -1,0 +1,29 @@
+###
+# Successful Login
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "password123"
+}
+
+###
+# Failed Login
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "wrongpassword"
+}
+
+###
+# Another Failed Login
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "anypassword"
+} 
