@@ -1,6 +1,6 @@
 ###
 # Successful Login
-POST http://127.0.0.1:5000/login
+POST https://flaskloginapp-h5dmamayeggtambe.canadacentral-01.azurewebsites.net/login
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
 
 ###
 # Failed Login
-POST http://127.0.0.1:5000/login
+POST https://flaskloginapp-h5dmamayeggtambe.canadacentral-01.azurewebsites.net/login
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 ###
 # Another Failed Login
-POST http://127.0.0.1:5000/login
+POST https://flaskloginapp-h5dmamayeggtambe.canadacentral-01.azurewebsites.net//login
 Content-Type: application/json
 
 {
